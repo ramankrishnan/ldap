@@ -1,0 +1,19 @@
+dn: ou=users,dc=example,dc=com
+objectClass: organizationalUnit
+ou: users
+
+dn: uid=alice,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+sn: Alice
+givenName: Alice
+cn: Alice User
+uid: alice
+userPassword: alice123
+
+dn: uid=bob,ou=users,dc=example,dc=com
+objectClass: inetOrgPerson
+sn: Bob
+givenName: Bob
+cn: Bob User
+uid: bob
+userPassword: bob123
